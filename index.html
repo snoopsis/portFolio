@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <title>Miguel Dias - Programador Web - Full Stack</title>
+  <meta name="description" content="Miguel Dias Progrmador Web Full Stack || PHP || Javascript || React JS || React Native || Node.js">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" >
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/font/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/libs/materialize/css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/css/bootstrap.css" media="screen,projection" />
+
+  <link rel="stylesheet" href="assets/css/animate.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/sweetalert/sweet-alert.css" media="screen,projection" />
+
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.carousel.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.transitions.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.theme.css" media="screen,projection" />
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+  <!-- Choose your default colors -->
+  <link rel="stylesheet" href="assets/css/colors/color1.css">
+  <!-- <link rel="stylesheet" href="assets/css/colors/color2.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color3.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color4.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color5.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color6.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color7.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color8.css"> -->
+
+  <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <!-- Preloader --> 
+    <div id="preloader">
+      <div class="loader">
+            <svg class="circle-loader" height="50" width="50">
+              <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="6" stroke-miterlimit="10" />
+            </svg>
+        </div>    
+    </div><!--preloader end-->
+
+  <!-- Main Container -->
+  <main id="app" class="main-section">
+    <!-- header navigation start -->
+    <header id="navigation" class="root-sec white nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="nav-inner">
+              <nav class="primary-nav">
+                <div class="clearfix nav-wrapper">
+                  <a href="#home" class="left brand-logo menu-smooth-scroll" data-section="#home"><img src="images/logo.png" alt="">
+                  </a>
+                  <!-- <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a> -->
+                  <ul class="right static-menu">
+                    <!-- <li>
+                      <a class="dropdown-button blog-submenu-init" href="#!" data-activates="dropdown1">
+                        <i class="mdi-navigation-more-vert right" style="color: white;"></i>
+                      </a>
+                    </li> -->
+                  </ul>
+                  <ul class="inline-menu side-nav" id="mobile-demo">
+
+                  <!-- Mini Profile // only visible in Tab and Mobile -->
+                    <li class="mobile-profile">
+                     <div class="profile-inner">
+                        <div class="pp-container">
+                            <img src="images/person.png" alt="">
+                        </div>
+                        <h3>Miguel Dias</h3>
+                        <h5>Programador Web</h5>
+                      </div>
+                    </li><!-- mini profile end-->
+
+
+                    <!-- <li><a href="#index" data-section="#index" class="menu-smooth-scroll"><i class="fa fa-user fa-fw"></i>Home</a>
+                    </li>
+                    <li><a href="#resume" data-section="#resume" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>Blog</a>
+                    </li>
+                    <li><a href="#portfolio" data-section="#portfolio" class="menu-smooth-scroll"><i class="fa fa-briefcase fa-fw"></i>Portfolio</a>
+                    </li>
+                    <li><a href="#team" data-section="#team" class="menu-smooth-scroll"><i class="fa fa-users fa-fw"></i>Team</a>
+                    </li>
+                    <li><a href="#testimonial" data-section="#testimonial" class="menu-smooth-scroll"><i class="fa fa-comments fa-fw"></i>Testimonial</a>
+                    </li>
+                    <li><a href="#blog" data-section="#blog" class="menu-smooth-scroll"><i class="fa fa-pencil fa-fw"></i>Blog</a>
+                    </li>
+                    <li><a href="#contact" data-section="#contact" class="menu-smooth-scroll"><i class="fa fa-paper-plane fa-fw"></i>Contact</a>
+                    </li> -->
+                  </ul>
+                  <!-- <ul id="dropdown1" class="inline-menu submenu-ul dropdown-content">
+                    <li>Home</li>
+                    <li><a href="blog.html">All Blog</a>
+                    </li>
+                    <li><a href="blog-with-sidebar.html">Blog with Sidebar</a>
+                    </li>
+                    <li><a href="single.html">Single Blog</a>
+                    </li>
+                  </ul> -->
+
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- .container end -->
+    </header>
+    <!-- #header  navigation end -->
+
+    <!-- Home Section start -->
+    <section id="home" class="scroll-section root-sec grey lighten-5 home-wrap">
+      <div class="sec-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="home-inner">
+                  <div class="center-align home-content">
+                    <h1 class="home-title"><span>Miguel Dias</span></h1>
+                    <h2 class="home-subtitle">Programador Web Full Stack</h2>
+                    <a href="#contact" class="hire-me-btn btn waves-effect waves-light btn-large brand-bg white-text regular-text">Contato <i class="mdi-content-send left"></i>
+                    </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .container end -->
+        <div class="section-call-to-area">
+          <div class="container">
+            <div class="row">
+              <a href="#about" class="btn-floating btn-large button-middle call-to-about section-call-to-btn animated btn-up btn-hidden" data-section="#about">
+                <i class="mdi-navigation-expand-more"></i>
+              </a>
+            </div>
+          </div>
+          <!-- .container end -->
+        </div>
+      </div>
+    </section>
+    <!-- #home Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="scroll-section root-sec padd-tb-60 grey lighten-5 about-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="clearfix about-inner">
+
+            <div class="col-sm-12 col-md-4">
+              <div class="person-about">
+                <h3 class="about-subtitle">Resumo</h3>
+                <p>Sou Desenvolvedor Pleno, Front End e Back End, de Salvador - BA. Possuo certificações Javascript e Responsive Webdesign.
+                  Além de conhecimentos teóricos, tenho alguns projetos prontos e outros em andamento.</p>
+                <!-- <a class="waves-effect waves-light btn-large brand-bg white-text"><i class="mdi-content-archive left"></i> Download Resume</a> -->
+              </div>
+            </div>
+            <!-- about me description -->
+
+            <div class="col-sm-6 col-md-4">
+              <div class="person-img wow fadeIn">
+                <img class="z-depth-1" src="images/person.png" alt="">
+              </div>
+            </div>
+            <!-- about me image -->
+
+            <div class="col-sm-6 col-md-4">
+              <div class="person-info">
+                <h3 class="about-subtitle">Sobre mim</h3>
+                <h5><span>Nome :</span> Miguel Dias</h5>
+                <h5><span>Idade :</span> 37 anos</h5>
+                <!-- <h5><span>Telefone :</span> +55 71 985090609</h5> -->
+                <h5><span>Email :</span> contato@migueldias.net</h5>
+                <h5><span>Address :</span> Salvador, Bahia</h5>
+              </div>
+
+              <div class="about-social">
+                <ul>
+                  <!-- <li>
+                    <a href="#" class="btn-floating waves-effect waves-light white"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" class="btn-floating waves-effect waves-light white"><i class="fa fa-twitter"></i></a>
+                  </li> -->
+                  <li>
+                    <a href="https://github.com/snoopsis" class="btn-floating waves-effect waves-light white" target="_blank"><i class="fa fa-github"></i></a>
+                   </li> 
+                  <li>
+                    <a href="https://linkedin.com/in/migueldev" class="btn-floating waves-effect waves-light white" target="_blank"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                
+                  <!-- <li>
+                    <a href="#" class="btn-floating waves-effect waves-light white"><i class="fa fa-pinterest"></i></a>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+            <!-- about me info -->
+
+          </div>
+        </div>
+      </div>
+      <!-- .container end -->
+    </section>
+    <!-- #about Section end -->
+
+    <section
+    id="trabalhos"
+    class="scroll-section root-sec white portfolio-wrap"
+  >
+    <div class="padd-tb-120 brand-bg portfolio-top">
+      <div class="portfolio-inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h2 class="title">Trabalhos</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolioModal" class="modal white">
+      <div class="model-img"></div>
+      <div class="modal-content">
+        <h2 class="title">Titulo</h2>
+        <p class="m-content"></p>
+      </div>
+
+      <div class="modal-footer">
+        <a
+          href="single.html"
+          target="_blank"
+          class="waves-effect btn-flat brand-text modal-action"
+        >
+          Live Demo
+        </a>
+        <a
+          href="single.html"
+          class="waves-effect btn-flat brand-text modal-action modal-close"
+        >
+          cancel
+        </a>
+      </div>
+    </div>
+
+    <div class="portfolio-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <ul class="clearfix protfolio-item" id="protfolio-msnry">
+              <li
+                class="single-port-item category-1 category-3"
+               
+              >
+                <a
+                  href="#portfolioModal"
+                  class="waves-effect waves-block waves-light modal-trigger"
+                  data-image-source="images/bahiaImoveisThumb.jpg"
+                  data-title="Website Imobiliario"
+                  data-content="Este projeto tem como alvo agencias imobiliarias, auxiliar no gerenciamento de imoveis para Venda e Aluguel."
+                  data-demo-link="https://imoveis.migueldias.net"
+                >
+                  <div class="protfolio-image">
+                    <img
+                      src="images/bahiaImoveisMain.jpg"
+                      alt="portfolio"
+                    />
+                    <div class="protfolio-content waves-effect waves-block waves-light">
+                      <div class="protfolio-content__inner">
+                        <h2 class="p-title">Bahia Imoveis</h2>
+                      </div>
+                    </div>
+                    <div class="p-overlay"></div>
+                  </div>
+                </a>
+              </li>
+
+              <li
+                class="single-port-item category-2 category-1"
+                
+              >
+                <a
+                  href="http://ronfasec.migueldias.net"
+                  class="waves-effect waves-block waves-light modal-trigger"
+                  data-image-source="images/ronfasecMain.jpg"
+                  data-title="Lavandaria Ronfasec"
+                  data-content="Este trabalho foi criado para auxiliar na imagem e publicidade de Lavandarias."
+                  data-demo-link="http://ronfasec.migueldias.net"
+                >
+                  <div class="protfolio-image">
+                    <img src="images/ronfasecThumb.jpg" alt="portfolio" />
+                    <div class="protfolio-content waves-effect waves-block waves-light">
+                      <div class="protfolio-content__inner">
+                        <h2 class="p-title">Ronfasec Lavandaria</h2>
+                      </div>
+                    </div>
+                    <div class="p-overlay"></div>
+                  </div>
+                </a>
+              </li>
+              <li
+                class="single-port-item category-2 category-1"
+                
+              >
+                <a
+                  href="http://ronfasec.site"
+                  class="waves-effect waves-block waves-light modal-trigger"
+                  data-image-source="images/buziosInside.jpg"
+                  data-title="Skandi Buzios Helideck"
+                  data-content="Website de Monitoramento de Helideck, acompanha condições meteorológicas e voos previstos para o Barco de operações especiais Offshore Skandi Buzios."
+                  data-demo-link="http://buzios.migueldias.net"
+                >
+                  <div class="protfolio-image">
+                    <img src="images/buziosOutside.jpg" alt="portfolio" />
+                    <div class="protfolio-content waves-effect waves-block waves-light">
+                      <div class="protfolio-content__inner">
+                        <h2 class="p-title">Skandi Buzios Helideck</h2>
+                      </div>
+                    </div>
+                    <div class="p-overlay"></div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Team Section end -->
+    <section id="team" class="scroll-section root-sec brand-bg padd-tb-120 team-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="clearfix team-inner">
+            <div class="col-sm-12 col-md-10 card-box-wrap">
+              <div class="row">
+                <div class="clearfix section-head team-text">
+                  <div class="col-sm-12">
+                    <h2 class="title">Certificados</h2>
+                    <p class="regular-text">Certificações obtidas ao longo do tempo pela participação em Cursos e Projetos.</p>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="overflow-hidden">
+                    <div class="row">
+                      <div id="teamSlider" class="clearfix card-element-wrapper">
+                        <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/responsive-web-design-certificate.jpg" alt="">
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">FreeCodeCamp<i class="mdi-navigation-more-vert right"></i></span>
+                              <p>Responsive Web Design</p>
+                            </div>
+                            <div class="card-reveal">
+                              <div class="rev-title-wrap">
+                                <span class="card-title activator brand-text">Miguel Dias<i class="mdi-navigation-close right"></i></span>
+                                <p>Responsive Web Design</p>
+                              </div>
+                              <p class="rev-content">
+                                Curso que abordou várias técnicas para a criação de Websites acessíveis em qualquer dispositivo.
+                              </p>
+                            </div>
+                          </div>
+                        </div> <!-- single team member -->
+                        <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/javascript-certificate.jpg" alt="javascript algorithms">
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">FreeCodeCamp<i class="mdi-navigation-more-vert right"></i></span>
+                              <p>JS Algorithms Data Structures</p>
+                            </div>
+                            <div class="card-reveal">
+                              <div class="rev-title-wrap">
+                                <span class="card-title activator brand-text">Miguel Dias<i class="mdi-navigation-close right"></i></span>
+                                <p>JS Algorithms Data Structures</p>
+                              </div>
+                              <p class="rev-content">
+                                Noções de Javascript e Algoritmos, curso focado no uso da linguagem de forma logica para resolução de problemas. 
+                              </p>
+                            </div>
+                          </div>
+                        </div> <!-- single team member -->
+                        <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".4s" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/React-Front-to-Back.jpg" alt="">
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Udemy<i class="mdi-navigation-more-vert right"></i></span>
+                              <p>React Front to Back</p>
+                            </div>
+                            <div class="card-reveal">
+                              <div class="rev-title-wrap">
+                                <span class="card-title activator brand-text">Miguel Dias<i class="mdi-navigation-close right"></i></span>
+                                <p>React Front to Back</p>
+                              </div>
+                              <p class="rev-content">
+                                React desde o início, explicando como criar Front End e Back End. Conceito de Classes e Funções, Prop Drilling, Contexto e Redux. No final terminei com 2 projetos completos. 
+                              </p>
+                            </div>
+                          </div>
+                        </div> <!-- single team member -->
+                        <div class="col-sm-4 single-card-box">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/HTML-CSS.jpg" alt="">
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Udemy<i class="mdi-navigation-more-vert right"></i></span>
+                              <p>HTML e CSS</p>
+                            </div>
+                            <div class="card-reveal">
+                              <div class="rev-title-wrap">
+                                <span class="card-title activator brand-text">Miguel Dias<i class="mdi-navigation-close right"></i></span>
+                                <p>HTML e CSS</p>
+                              </div>
+                              <p class="rev-content">
+                                Introdução a HTML e CSS conceitos básicos para criação e edição de conteúdo usando os pilares da Web.
+                              </p>
+                            </div>
+                          </div>
+                        </div> <!-- single team member -->
+                        <div class="col-sm-4 single-card-box">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/certificado-php-oop-framework.jpg" alt="Certificado de PHP">
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Udemy<i class="mdi-navigation-more-vert right"></i></span>
+                              <p>OOP PHP with MVC</p>
+                            </div>
+                            <div class="card-reveal">
+                              <div class="rev-title-wrap">
+                                <span class="card-title activator brand-text">Miguel Dias<i class="mdi-navigation-close right"></i></span>
+                                <p>OOP PHP with MVC</p>
+                              </div>
+                              <p class="rev-content">
+                                Programação orientada a objetos com PHP e MVC, conceito Model View Controller. Aprendi muito com este curso, criei o meu próprio Framework em PHP consigo desenvolver de estruturada, rápida e com muita reutilização de código. 
+                              </p>
+                            </div>
+                          </div>
+                        </div> <!-- single team member -->
+                       
+                      </div> <!-- #teamSlider end -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn-wrapp tmu-ctrl">
+              <a class="btn-floating waves-effect waves-light btn-large white go go-left"><i class="mdi-navigation-chevron-left brand-text"></i></a>
+              <a class="btn-floating waves-effect waves-light btn-large white go go-right"><i class="mdi-navigation-chevron-right brand-text"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- .container -->
+    </section>
+    <!-- #team Section end -->
+
+
+     <!-- Resume Section start -->
+     <section id="resume" class="scroll-section ">
+      <section id="skill" class="root-sec white skill-wrap">
+      <div class="sec-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="clearfix skill-inner">
+              <div class="col-sm-12 col-md-3">
+                <div class="skill-left">
+                  <h2 class="title">Habilidades</h2>
+                  <p class="regular-text">Algumas habilidades adquiridas ao longo do tempo por meio de estudo e aplicação em Projetos.</p>
+                </div>
+              </div>
+
+              <!-- skills container -->
+              <div class="col-sm-12 col-md-6 col-md-offset-1">
+                <div class="skill-right">
+                  <div id="skillSlider" class="clearfix skill-graph">
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="70%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">React JS</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">70%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="60%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">JavaScript</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">60%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="80%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">PHP</span>
+                              <div class="hr-wrap">
+
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">80%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="90%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">HTML</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">90%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="65%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Node</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">65%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="70%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">CSS</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">70%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="55%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Mysql</span>
+                              <div class="hr-wrap">
+
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">55%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="60%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">React Native</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">60%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="70%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Linux Server</span>
+                              <div class="hr-wrap">
+
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">70%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="75%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Bootstrap</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">75%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                     <!-- single skill -->
+                     <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="50%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Materialize</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">50%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                  </div>
+                </div>
+              </div>
+              <!-- /skills container -->
+            </div>
+          </div>
+          <div class="btn-wrapp skl-ctrl">
+            <a class="btn-floating waves-effect waves-light btn-large brand-bg white-text go go-left"><i class="mdi-navigation-chevron-left "></i></a>
+            <a class="btn-floating waves-effect waves-light btn-large brand-bg white-text go go-right"><i class="mdi-navigation-chevron-right "></i></a>
+          </div>
+        </div>
+      </div>
+        <!-- .container end -->
+      </section>
+
+
+    <!-- Contact Section end -->
+    <section id="contact" class="scroll-section root-sec brand-bg padd-tb-120 contact-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="contact-inner">
+            <div class="col-sm-12 card-box-wrap">
+              <div class="row">
+                <div class="clearfix section-head contact-text">
+                  <div class="col-sm-12">
+                    <h2 class="title">Contato</h2>
+                    <p class="regular-text">Salvador - Bahia</p>
+                    <ul class="clearfix contact-info">
+                      <!-- <li><a href="">+880 1234 567890</a> -->
+                      </li>
+                      <li><a href="">contato@migueldias.net</a>
+                      </li>
+                      <li><a href="">www.migueldias.net</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div> <!-- contact text end -->
+
+                <div class="clearfix contact-form">
+
+                <!-- Contact Form start -->
+                  <div class="col-sm-5">
+                    <div class="clearfix card-panel grey lighten-5 cform-wrapper">
+                      <form method="post" id="contactForm" novalidate>
+                        <div class="input-field">
+                          <input type="text" id="nome" class="validate input-box">
+                          <label for="contact_name" class="input-label">Nome</label>
+                        </div>
+                        <div class="input-field">
+                          <input id="email" type="email" class="validate input-box">
+                          <label for="email" class="input-label">Email</label>
+                        </div>
+                        <div class="input-field textarea-input">
+                          <textarea id="mensagem" class="validate materialize-textarea" style="height: 22px;"></textarea>
+                          <label for="textarea1" class="input-label">Mensagem</label>
+                        </div>
+                        <div class="input-field submit-wrap clearfix">
+                          <button type="submit" class="left waves-effect btn-flat brand-text submit-btn" id="enviar">enviar mensagem</button>
+                          <div class="right form-loader-area">
+                            <svg class="circular size-20" height="20" width="20">
+                              <circle class="path" cx="10" cy="10" r="7" fill="none" stroke-width="3" stroke-miterlimit="10" />
+                            </svg>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div> <!-- ./contact form end -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container end -->
+      <div class="section-call-to-area">
+        <div class="container">
+          <div class="row">
+            <a href="#home" class="btn-floating btn-large button-middle call-to-home section-call-to-btn animated btn-up btn-hidden" data-section="#home">
+              <i class="mdi-navigation-expand-less"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #contact Section end -->
+
+    <!-- Footer Section end -->
+    <footer id="footer" class="root-sec white root-sec footer-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="clearfix footer-inner">
+              <ul class="left social-icons">
+                <!-- <li><a href="#" class="tooltips tooltipped facebook" data-position="top" data-delay="50" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a>
+                </li> -->
+                <li><a href="https://linkedin.com/in/migueldev" class="tooltips tooltipped linkedin" data-position="top" data-delay="50" data-tooltip="Linkdin" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <!-- <li><a href="#" class="tooltips tooltipped twitter" data-position="top" data-delay="50" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>
+                </li> -->
+                <li><a href="https://github.com/snoopsis" class="tooltips tooltipped google-plus" data-position="top" data-delay="50" data-tooltip="Google Plus" target="_blank"><i class="fa fa-github"></i></a>
+                </li>
+                <!-- <li><a href="#" class="tooltips tooltipped dribbble" data-position="top" data-delay="50" data-tooltip="Dribbble"><i class="fa fa-dribbble"></i></a>
+                </li> -->
+                <!-- <li><a href="#" class="tooltips tooltipped behance" data-position="top" data-delay="50" data-tooltip="Behance"><i class="fa fa-behance"></i></a>
+                </li> -->
+              </ul> <!-- ./social icons end -->
+              <div class="right copyright">
+                <p>desenvolvimento &copy; contato@migueldias.net</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container end-->
+    </footer>
+    <!-- #footer end -->
+
+  </main>
+  <!-- Main Container end-->
+
+  <!-- JavaScripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js" integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg==" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="assets/js/jquery.easing.1.3.js"></script>
+  <script src="assets/js/detectmobilebrowser.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/waypoints.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script src="assets/libs/owl-carousel/owl.carousel.min.js"></script>
+  <script src="assets/libs/materialize/js/materialize.min.js"></script>
+  <script src="assets/libs/jwplayer/jwplayer.js"></script>
+  <script src="assets/libs/sweetalert/sweet-alert.min.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script>
+
+document.querySelector('#enviar').addEventListener('click', function(e){
+  e.preventDefault();
+
+  var hoje = moment().format("LT, DD/MM/YY");
+  
+  var nome = document.getElementById('nome').value;
+  var email = document.getElementById('email').value;
+  var mensagem = document.getElementById('mensagem').value;
+
+  function emailIsValid (email) {
+  return /\S+@\S+\.\S+/.test(email)
+}
+  
+  if(nome !== "" && email !== "" && mensagem !== "" && emailIsValid(email) === true){
+    sendMail(nome, email, mensagem, hoje);
+    document.getElementById('enviar').style.display = 'none';
+    swal("Mensagem Enviada, Obrigado!");
+  } else {
+    swal("Erro", "Por favor preencha todos os campos.", "error")
+  }
+  
+})
+
+function sendMail(nome, email, mensagem, hoje){
+    // Send a POST request
+    axios({
+    method: 'post',
+    url: 'https://api.migueldias.net/portfolio/sendMessage',
+    data: {
+      nome: nome,
+      email: email,
+      mensagem: mensagem,
+      data: hoje
+    }
+});
+
+}
+
+    </script>
+</body>
+
+</html>
